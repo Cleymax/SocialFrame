@@ -1,0 +1,5 @@
+shadowJar {
+    baseName = "SocialFrame-v1_9_4.jar"
+}
+
+build.dependsOn(shadowJar)

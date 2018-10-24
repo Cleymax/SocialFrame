@@ -1,0 +1,5 @@
+shadowJar {
+    baseName = "SocialFrameInstagramModule.jar"
+}
+
+build.dependsOn(shadowJar)

@@ -1,0 +1,28 @@
+dependencies {
+    compile project(':api')
+
+    compile project(':multiversion/v1_7_10')
+    compile project(':multiversion/v1_8')
+    compile project(':multiversion/v1_8_3')
+    compile project(':multiversion/v1_8_8')
+    compile project(':multiversion/v1_9')
+    compile project(':multiversion/v1_9_4')
+    compile project(':multiversion/v1_10')
+    compile project(':multiversion/v1_10_2')
+    compile project(':multiversion/v1_11')
+    compile project(':multiversion/v1_11_2')
+    compile project(':multiversion/v1_12')
+    compile project(':multiversion/v1_12_2')
+    compile project(':multiversion/v1_13')
+
+    compile project(':modules/WebSiteModule')
+    compile project(':modules/TwitterModule')
+    compile project(':modules/SnapchatModule')
+    compile project(':modules/InstagramModule')
+    compile project(':modules/FacebookModule')
+}
+shadowJar {
+    baseName = "SocialFrame.jar"
+}
+
+build.dependsOn(shadowJar)

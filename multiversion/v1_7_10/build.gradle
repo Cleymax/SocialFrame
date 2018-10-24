@@ -1,0 +1,9 @@
+shadowJar {
+    baseName = "SocialFrame-v1_7_10.jar"
+}
+
+dependencies {
+    shadow project(':api')
+}
+
+build.dependsOn(shadowJar)

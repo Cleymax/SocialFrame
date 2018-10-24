@@ -1,0 +1,5 @@
+shadowJar {
+    baseName = "SocialFrameSnapChatModule.jar"
+}
+
+build.dependsOn(shadowJar)

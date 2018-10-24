@@ -1,0 +1,6 @@
+name: SocialFrame
+version: 1.0.0
+main: fr.cleymax.socialframe.bukkit.SocialFrame
+author: Cleymax
+load: STARTUP
+website: https://cleymax.fr/

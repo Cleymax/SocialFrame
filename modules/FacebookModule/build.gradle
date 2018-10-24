@@ -1,0 +1,5 @@
+shadowJar {
+    baseName = "SocialFrameFacebookModule.jar"
+}
+
+build.dependsOn(shadowJar)

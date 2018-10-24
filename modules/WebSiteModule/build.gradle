@@ -1,0 +1,5 @@
+shadowJar {
+    baseName = "SocialFrameWebSiteModule.jar"
+}
+
+build.dependsOn(shadowJar)
